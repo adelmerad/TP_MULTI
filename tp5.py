@@ -41,7 +41,7 @@ if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
 
-image = cv2.imread("image.bmp", 0)
+image = cv2.imread("Image.bmp", 0)
 
 h, w = image.shape
 

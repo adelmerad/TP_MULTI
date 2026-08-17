@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("image.bmp", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("Image.bmp", cv2.IMREAD_GRAYSCALE)
 
 _, binary = cv2.threshold(image, 127, 1, cv2.THRESH_BINARY)
 
